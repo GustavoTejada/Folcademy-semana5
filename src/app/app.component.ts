@@ -10,6 +10,9 @@ export class AppComponent {
 
   state = true;
 
+  toSearch = "";
+
+
   numeroDeLaClase = "Clase 5";
 
   image = "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ie80g8dfk979zbsigwvj.png";
@@ -52,4 +55,8 @@ export class AppComponent {
     alert("Función ejecutada por el usuario");
   }
 
+
+  search(value: string) {
+    console.log(value);
+  }
 }
