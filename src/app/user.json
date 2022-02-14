@@ -1,0 +1,30 @@
+{
+    "user": {
+        "name": "Juan",
+        "lastname": "Perez",
+        "address": {
+            "street": "Calle falsa 123",
+            "city": "Ciudad falsa",
+            "state": "Estado falso"
+        },
+        "hobbies": [
+            "Comer",
+            "Dormir",
+            "Jugar"
+        ],
+        "isActive": true,
+        "age": 30,
+        "role": "admin",
+        "university": "Universidad falsa",
+        "courses": [
+            {
+                "name": "Angular",
+                "price": "$100"
+            },
+            {
+                "name": "Node",
+                "price": "$200"
+            }
+        ]
+    }
+}
